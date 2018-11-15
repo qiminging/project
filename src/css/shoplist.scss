@@ -1,0 +1,174 @@
+/* menu*/
+.menu {
+	a:hover{color:#ff5900;text-decoration: none;}
+	min-height: 179px;
+	background: url(https://js01.daoju.qq.com/mall/images/channelmall/lol/bg-head.jpg) no-repeat top center;
+}
+
+.searchbox {
+	height: 125px;
+	>div{
+		float: left;
+	}
+	a{
+		display: block;
+		background: url(//js01.daoju.qq.com/common/images/channel/revision/lol/navico.png) no-repeat;
+	}
+}
+
+.search_fl {
+	width: 280px;
+	height: 52px;
+	margin: 37px 0 0;
+
+	a {
+		display: block;
+		width: 280px;
+		height: 55px;
+		background-position: -670px -5px;;
+	}
+}
+.search_fc{
+	margin: 39px 65px 0 100px;
+	.search_text{
+		width:522px;height:51px;
+		background: url(//js01.daoju.qq.com/common/images/channel/revision/lol/navico.png) no-repeat;
+		background-position: -999px 0;
+		a{
+			float: right;
+			width: 49px; height: 46px;
+			background: url(//js01.daoju.qq.com/common/images/channel/revision/lol/navico.png) no-repeat;	
+			background-position: -1558px 0;
+			margin-top: 2px;
+		}
+		input{
+			float: right;
+			color: #9f9f9f;
+			font-size: 14px;
+			width: 440px;height: 18px;line-height: 18px; margin: 1px 0 0 6px;
+			padding: 14px 10px 15px 10px;
+			background: none; border: none; outline: none;
+		}
+	}
+}
+.search_fr{
+	a{
+		margin-top: 37px;
+		width: 223px; height: 59px;
+		background-position: -437px -5px;
+		
+	}
+}
+
+.menu_nav {
+	
+	width: 940px;
+	float: left;
+	li{
+		float: left;
+		a{
+			float: left;font-size: 18px;color:#9f9f9f;
+			width: 134px;height: 78px;line-height: 78px;text-align: center;
+		}
+	}
+}
+.nav_car{
+	float: right;
+	width: 166px;
+	padding: 26px;
+	a{
+		display: block;
+		height:24px;
+		font-size: 18px;color: #ff5900;
+		s{
+			float: left;
+			width: 28px; height: 24px;
+			background: url(//js01.daoju.qq.com/common/images/channel/revision/lol/navico.png) no-repeat;
+			background-position: -237px -5px;
+			 margin-right: 5px;
+		}
+		span,i{line-height: 24px;}
+	}
+}
+
+.subnav{
+	background: #e6e6e8;
+	li
+	{
+		float: left;
+		a{
+			display: block;
+			width: 152px;height: 52px;
+			font-size: 14px;
+			color: #222; text-align: center;line-height: 52px;
+			&:hover{
+				color: #36ab87;
+			}
+		}
+	}
+	
+}
+
+/* list_title*/
+.list_title{
+	margin: 24px auto 8px;
+	a:hover{color:#222; text-decoration: none;}
+}
+/*main*/
+
+ .main_fl{
+	 width: 228px;float: left;
+	 .main_fl_top{
+		padding: 0 13px 0 0;
+		background: #fafbfc;
+		h3{
+			height: 47px;font-size: 16px;color: #555;
+			border-bottom: 2px solid #f3f4f6;
+			line-height: 50px;
+			text-indent: 6px;
+			margin-left: 18px;
+			position: relative;
+			span{
+				position: absolute;
+				bottom: 0;
+				z-index: 1;
+				width: 80px;
+				height: 2px;
+				background: #36ab87;
+				display: block;
+			}
+		}
+	 }
+ }
+	ul{
+		margin-left: 20px;
+		li{
+			a{	
+				&:hover{
+					p:nth-child(1){
+						// color: red;
+					}
+				}
+				overflow: hidden;
+				display: block;
+				width: 195px; height: 88px; padding-top: 15px;
+				img{width: 76px;height: 54px; float: left;}
+				div{float: right;
+					width: 108px;
+					overflow: hidden;
+					color: #222;
+					p{
+						width: 100%;
+						&:first-child{line-height: 12px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+						&:nth-child(2){margin-top: 8px;height: 15px;}
+						&:nth-child(3){margin-top: 3px;height: 18px;padding-bottom: 15px;color: #333;}
+					}
+				}
+			}
+		}
+	}
+ .main_fr{
+	 float: right;
+	 
+ }
+

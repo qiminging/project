@@ -1,0 +1,23 @@
+/* header-nav */
+.mainnav{height: 30px; background: #f9f9f9; line-height: 30px;}
+.mainnav span{float: left; width: 3px;height: 30px;color: #e7e7e7; margin: 0 10px;}
+.mainnav_rt span{float: right;}
+.mainnav_lf{float: left;height: 30px;}
+.mainnav_lf a{float: left;}
+.mainnav_lf a i{float: left; width: 11px;height: 16px; background: url(../images/icon.png) 
+no-repeat; background-position: 0 0; margin: 7px 3px 0 0;}
+.mainnav_rt{width: 600px;float: right;}
+.mainnav_rt a{float: right;}
+.mainnav_rt .navWhite{float: right; width: 72px;height: 21px;line-height: 21px; 
+background:url(../images/icon.png)no-repeat; margin-top:5px; padding-left: 8px;
+background-position: -20px -334px;}
+.main_smallbox{float: right; width: 71px; position: relative;}
+.main_smallbox>div{width: 94px;border: 1px solid #e7e7e7;background: #fff;
+padding-bottom: 5px; position: absolute;left: -11px; top: 1px;display: none; }
+.main_smallbox>div a{float: left; padding-left: 10px; height: 26px;line-height: 26px}
+.main_smallbox>div a:first-child{font-weight: bold;}
+.main_smallbox>div a i{float: none; display: inline-block;background-position: -20px -52px;
+margin-left: 8px}
+.mainnav_rt a i{float: right; width: 11px;height: 13px;background:url(../images/icon.png)
+no-repeat; background-position: 0 -52px;}
+.main_smallbox:hover div{display: block;}
